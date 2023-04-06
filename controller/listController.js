@@ -37,7 +37,7 @@ const listController = {
   },
 
   update: (req, res) => {
-    console.log(req.body);
+    
 
     const { uuid } = req.params;
     const bodyData = req.body;
